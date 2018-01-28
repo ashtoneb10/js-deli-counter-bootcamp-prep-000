@@ -13,3 +13,7 @@ function nowServing(){
     return katzDeliLine.shift();
 } else return "There is nobody waiting to be served!"
 }
+
+function currentLine(){
+  
+}
