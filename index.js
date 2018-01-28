@@ -15,7 +15,7 @@ function nowServing(){
 }
 
 function currentLine(){
-  if(katzDeliLine.length >0){
+  if(katzDeliLine.length <0){
     return katzDeliLine;
 } else return "The line is currently empty."
 }
