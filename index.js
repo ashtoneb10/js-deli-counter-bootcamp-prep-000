@@ -20,5 +20,6 @@ function currentLine(katzDeliLine){
     let array = [];
     array.push(`${i+ 1}. ${katzDeliLine[i]}`);
     }
+    return `The line is currently: ${array}.`
 } else return "The line is currently empty."
 }
