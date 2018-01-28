@@ -8,14 +8,14 @@ function takeANumber(katzDeliLine, name){
   return `Welcome, ${name}. You are number ${place} in line.`;
 }
 
-function nowServing(){
-  if(katzDeliLine.length <0){
+function nowServing(katzDeliLine){
+  if(katzDeliLine.length >0){
     return katzDeliLine.shift();
 } else return "There is nobody waiting to be served!"
 }
 
-function currentLine(){
-  if(katzDeliLine.length <0){
+function currentLine(katzDeliLine){
+  if(katzDeliLine.length >0){
     return katzDeliLine;
 } else return "The line is currently empty."
 }
