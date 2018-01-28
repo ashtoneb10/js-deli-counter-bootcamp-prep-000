@@ -1,5 +1,7 @@
 var katzDeli= [];
 
+var katzDeliLine = [];
+
 function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name);
   var place = katzDeliLine.length;
